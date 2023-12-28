@@ -22,34 +22,86 @@
       <header class="header">
         <nav class="nav">
           <img
-            src="./images/background_header.svg"
-            alt="background_header"
+            src="./images/logo_coffeeshop_dark.svg"
+            alt="Coffee Shop Logo"
             class="nav__logo"
           />
           <ul class="nav__links">
             <li>
-              <a class="nav__link" href="#receitas">receitas</a>
+              <a href="#recipes" class="nav__link">Receitas</a>
             </li>
             <li>
-              <a class="nav__link" href="#reservas">Reservar uma mesa</a>
+              <a href="#reservation" class="nav__link">Reservas</a>
             </li>
             <li>
-              <a class="nav__link" href="#menu">Menu</a>
+              <a href="#menu" class="nav__link">Menu</a>
             </li>
             <li>
-              <a class="nav__link" href="#footer">Contatos</a>
+              <a href="#about" class="nav__link">Contatos</a>
             </li>
           </ul>
         </nav>
-        <h1 class="header__title" id="header">Café Especial</h1>
-        <h2 class="header__subtitle">na Biblioteca Triple Peaks</h2>
+        <h1 class="header__title" id="header">
+          <span class="header__span-accent">Café Especial</span>
+          na Biblioteca Triple Peaks
+        </h1>
+        <p class="header__description">
+          Bem vindo à nossa zona de estudo! Temos aquele cafezinho para
+          energizar você e vibrações aconvhegantes para ajudá-lo a ser criativo.
+        </p>
+        <img
+          src="images/inside_coffee_shop.png"
+          alt="dentro do café"
+          class="header__image"
+        />
+        <div class="header__footer">
+          <ul class="header__list">
+            <li class="header__list-item">Horários</li>
+            <li class="header__list-item">Segunda a sexta (10:00 – 19:00)</li>
+            <li class="header__list-item">Sábado a Domingo (11:00 – 18:00)</li>
+          </ul>
+          <p class="header__address">
+            200 Success Avenue, a cidade de Triple Peaks
+          </p>
+        </div>
       </header>
       <main class="content">
-        <section class="recipes"></section>
-        <section class="reservation"></section>
-        <section class="menu"></section>
-        <section class="about"></section>
-      </main>
+        <section id="recipes" class="recipes">
+          <h2 class="recipes__title">Receitas</h2>
+          <h3 class="recipes__subtitle">
+            Confira algumas receitas que coletamos para seu lanchinho caseiro:
+          </h3>
+          <ul class="recipes__videos">
+            <li class="videos">
+              <div class="videos__content">
+                <iframe width="560" height="315"
+                src="https://www.youtube.com/embed/j6VlT_jUVPc?si=OK8SOmWiPS6B66o0"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+                <div class="videos__video-caption">
+                  <p class="videos__description">Receita Aeropress</p>
+                  <p class="videos__description">~5 min</p>
+                </div>
+              </div>
+            </li>
+            <li class="videos">
+              <div class="videos__content">
+                <iframe width="560" height="315"
+                src="https://www.youtube.com/embed/st571DYYTR8?si=0pVXANs8gQgyAobP"
+                title="YouTube video player"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+                <div class="videos__video-caption">
+                  <p class="videos__description">Receita Imprensa Francesa</p>
+                  <p class="videos__description">~15 min</p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </section>
+
       <footer class="footer" id="footer"></footer>
     </div>
   </body>
