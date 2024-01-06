@@ -1,0 +1,33 @@
+/*Cardápio:*/
+.menu {
+  padding: 100px 0;
+  background-color: #fff;
+  background-image: url(../images/background_menu.svg);
+  background-size: cover;
+  background-origin: content-box;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu__title {
+  max-width: 780px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+
+.menu__subtitle {
+  max-width: 780px;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  padding: 0;
+  margin: 24px 0 0;
+}
