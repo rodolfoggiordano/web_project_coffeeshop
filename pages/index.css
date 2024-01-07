@@ -1,6 +1,6 @@
 /*sprint3 part4*/
-@import url(../blocks/page.css);
 @import url(../vendor/normalize.css);
+@import url(../blocks/page.css);
 @import url(../blocks/nav.css);
 @import url(../blocks/card.css);
 @import url(../blocks/form.css);
