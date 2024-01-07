@@ -4,7 +4,7 @@ O Triple Espresso Coffee Shop é parte do sprint 3. Sendo uma página automatiza
 
 ## Funcionalidades e Tecnologias Utilizadas
 
-Posicionamento; HTML5 semântico; Flexbox; Incorporação de vídeos e imagens, YouTube, Instagram, Copiright, facebook; Formulários; Animações e Transições
+Compatibilidade entre navegadores e fontes; Posicionamento; HTML5 semântico; Flexbox; Incorporação de conteúdo, vídeos e imagens, YouTube, Instagram, Copiright, facebook; Formulários; Sombras e gradientes com CSS; Caminhos de arquivo e organização de arquivos BEM - Block, Element, Modifier; Git para iniciantes.
 
 ### Melhorias no projeto
 
