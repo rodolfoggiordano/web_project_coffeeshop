@@ -30,3 +30,15 @@
   padding: 0;
   margin: 24px 0 0;
 }
+.menu__cards {
+  display: flex;
+  justify-content: center;
+  align-items: first baseline;
+  flex-wrap: wrap;
+  column-gap: 100px;
+  row-gap: 100px;
+  list-style-type: none;
+  padding: 0;
+  margin: 100px 0 0;
+  text-align: center;
+}
