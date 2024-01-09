@@ -41,19 +41,19 @@
   height: 273px;
   border: none;
 }
-/*
-.videos__video-caption {
+
+.recipes__video-caption {
   margin: 0;
   padding: 0;
   display: flex;
   justify-content: space-between;
 }
 
-.videos__description {
+.recipes__description {
   margin: 24px 0 0;
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
-} */
+}
